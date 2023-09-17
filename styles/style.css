@@ -16,7 +16,7 @@
   max-width: 1440px;
   width: 100%;
   height: auto;
-  background: #FEFCF7; 
+  background: #fefcf7;
 }
 
 .container {
@@ -147,7 +147,6 @@
 .header-main--main-part button:hover {
   border: 2px solid #66d2cf;
   background-color: transparent;
-
 }
 
 /* main css */
@@ -157,7 +156,7 @@
   height: auto;
   margin-top: 136px;
   position: relative;
-  background: #FEFCF7; 
+  background: #fefcf7;
 }
 
 .collection img {
@@ -306,22 +305,21 @@
 
 /* main-3 css code */
 
-.main-3{
+.main-3 {
   max-width: 1440px;
   width: 100%;
   height: auto;
-  
 }
 
-.main-3--container{
+.main-3--container {
   width: 1045px;
   height: 565px;
   margin: 0 auto;
   position: relative;
 }
 
-.main-3--container h2{
-  color: #83888F;
+.main-3--container h2 {
+  color: #83888f;
   font-family: "Fraunces" 9pt;
   font-size: 24px;
   font-style: normal;
@@ -329,11 +327,11 @@
   margin-bottom: 80px;
 }
 
-.line{
+.line {
   width: 760px;
   height: 2px;
   flex-shrink: 0;
-  border: 2px solid #FDD6BA;
+  border: 2px solid #fdd6ba;
   margin-bottom: 82px;
 }
 
@@ -346,41 +344,41 @@
   top: 93px;
 }
 
-.doiralar div{
+.doiralar div {
   width: 31px;
   height: 31px;
   flex-shrink: 0;
   border-radius: 50%;
-  border: 2px solid #0E8784;
+  border: 2px solid #0e8784;
   background-color: #fff;
 }
 
-.coffee-enjoy{
+.coffee-enjoy {
   width: 1045px;
   height: auto;
   display: flex;
   gap: 95px;
 }
 
-.list{
+.list {
   width: 285px;
   height: 355px;
   flex-shrink: 0;
 }
 
-.list h1{
-  color: #FDD6BA;
+.list h1 {
+  color: #fdd6ba;
   font-family: "Fraunces";
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 72px; /* 100% */  
+  line-height: 72px; /* 100% */
   margin-bottom: 39px;
 }
 
-.list h3{
+.list h3 {
   width: 205px;
-  color: #333D4B;
+  color: #333d4b;
   font-family: "Fraunces" 9pt;
   font-size: 32px;
   font-style: normal;
@@ -389,9 +387,9 @@
   margin-bottom: 41px;
 }
 
-.list p{
+.list p {
   width: 265px;
-  color: #333D4B;
+  color: #333d4b;
   font-family: "Barlow";
   font-size: 16px;
   font-style: normal;
@@ -399,7 +397,7 @@
   line-height: 26px; /* 162.5% */
 }
 
-.pointer-and-button{
+.pointer-and-button {
   width: 1045px;
   height: auto;
   margin: 0 auto;
@@ -407,16 +405,16 @@
   position: relative;
 }
 
-.pointer-and-button button{
+.pointer-and-button button {
   width: 217px;
   height: 56px;
   flex-shrink: 0;
   border-radius: 6px;
-  background: #66D2CF;
+  background: #66d2cf;
   cursor: pointer;
-  border:none;
+  border: none;
 
-  color: #FEFCF7;
+  color: #fefcf7;
   text-align: center;
   font-family: "Fraunces";
   font-size: 18px;
@@ -426,11 +424,11 @@
   transition: all 0.5s;
 }
 
-.pointer-and-button button:hover{
-  background-color:#0dddd9;
+.pointer-and-button button:hover {
+  background-color: #0dddd9;
 }
 
-.pointer-and-button img{
+.pointer-and-button img {
   position: absolute;
   top: 50px;
   right: 850px;
@@ -438,26 +436,26 @@
 
 /* footer css code */
 
-.footer{
-max-width: 1440px;
-width: 100%;
-height: auto;
-background: #FEFCF7; 
-padding-top: 200px;
+.footer {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  background: #fefcf7;
+  padding-top: 200px;
 }
 
-.footer-container{
+.footer-container {
   width: 1280px;
   height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  background: #2C343E;
+  background: #2c343e;
   padding: 47px 85px;
 }
 
-.footer-container ul{
+.footer-container ul {
   display: flex;
   width: 350px;
   height: 15px;
@@ -469,14 +467,14 @@ padding-top: 200px;
   position: relative;
 }
 
-.footer-container ul img{
+.footer-container ul img {
   position: absolute;
   top: 10px;
   right: 89px;
 }
 
-.pointer{
-  color: #FEFCF7;
+.pointer {
+  color: #fefcf7;
   font-family: Barlow;
   font-size: 12px;
   font-style: normal;
@@ -486,13 +484,13 @@ padding-top: 200px;
   text-transform: uppercase;
 }
 
-.footer-container li{
+.footer-container li {
   list-style: none;
 }
 
-.footer-container li a{
+.footer-container li a {
   text-decoration: none;
-  color: #83888F;
+  color: #83888f;
   font-family: "Barlow";
   font-size: 12px;
   font-style: normal;
@@ -500,20 +498,26 @@ padding-top: 200px;
   line-height: 15px; /* 125% */
   letter-spacing: 0.923px;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 
-.tarmoqlar{
+.footer-container li a:hover {
+  
+  color: #cdcfd2;
+}
+
+.tarmoqlar {
   position: relative;
 }
 
-.tarmoqlar a{
+.tarmoqlar a {
   display: flex;
   align-items: center;
   gap: 20px;
   position: relative;
 }
 
-.tarmoqlar--pointer{
+.tarmoqlar--pointer {
   position: absolute;
   top: 13px;
   left: 14px;
