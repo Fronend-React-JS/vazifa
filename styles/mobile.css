@@ -8,51 +8,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 32px 24px;
     }
 
     .header-main{
         background-image: url(../images/Bitmap-mobilne.png);
     }
-  
-    .container--logo-menu img{
-      width: 43%;
-      height: auto;
-      flex-shrink: 0;
-    }
-  
-    .container--logo-menu ul{
-      display: none;
-    }
-  
-    .header-main{
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .header-main--main-part{
-      width: 100%;
-      height: auto;
-    }
-
-    .uchtalik{
-     display: block;
-    }
-  
-    .header-main--main-part h1{
-      width: 73%;
-      color: var(--white-text-color);
-      text-align: center;
-      font-family: "Fraunces" 9pt;
-      /* font-style: normal;
-      font-weight: 900;
-      line-height: 40px; /* 100% */
-     }
-   
-
-  
   }
   
