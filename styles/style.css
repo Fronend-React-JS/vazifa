@@ -46,6 +46,10 @@
   list-style: none;
 }
 
+.uchtalik{
+  display: none;
+ }
+
 .cursor {
   color: var(--black-text-color);
   font-family: "Barlow";

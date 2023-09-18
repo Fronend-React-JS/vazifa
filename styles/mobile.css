@@ -49,6 +49,10 @@
       width: 100%;
       height: auto;
     }
+
+    .uchtalik{
+     display: block;
+    }
   
     .header-main--main-part h1{
       width: 73%;
@@ -111,13 +115,13 @@
     .collection{
       width: 100%;
       height: auto;
-  
-      
     }
   
     .collection img{
       background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
     }
+
+
   
   }
   
