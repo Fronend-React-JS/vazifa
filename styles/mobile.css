@@ -10,26 +10,14 @@
       align-items: center;
       padding: 32px 24px;
     }
-  
-    .container--logo-menu ul {
-      width: 6px;
-      height: 5px;
-    }
-    
-    .container--logo-menu ul img{
-      width: 1px;
-      height: 1px;
-    }
-  
-    .container {
-      width: 100%;
-      height: auto;
-      margin: 10px auto;
+
+    .header-main{
+        background-image: url(../images/Bitmap-mobilne.png);
     }
   
     .container--logo-menu img{
-      width: 163px;
-      height: 18px;
+      width: 43%;
+      height: auto;
       flex-shrink: 0;
     }
   
