@@ -618,7 +618,6 @@
   .header-main--main-part button:hover {
     border: 2px solid #66d2cf;
     background-color: transparent;
-    width: 20%;
   }
 
   .main{
@@ -639,7 +638,7 @@
     width: 100%;
     height: auto;
     flex-shrink: 0;
-  
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
   }
 
 }
