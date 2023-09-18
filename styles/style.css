@@ -502,7 +502,6 @@
 }
 
 .footer-container li a:hover {
-  
   color: #cdcfd2;
 }
 
@@ -522,4 +521,89 @@
   top: 13px;
   left: 14px;
   z-index: 1;
+}
+
+/* Mobilne css */
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 327px;
+    height: 18px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px;
+  }
+
+  .container {
+    width: 327px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+
+  .container--logo-menu img{
+    width: 163px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .header-main{
+    width: 327px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-main--main-part h1{
+    width: 279px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: "Fraunces" 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 100% */
+  }
+
+  .header-main--main-part p{
+    width: 279px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+  }
+
+  .button{
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #0E8784;
+
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+  }
+
+  .main{
+    max-width: 375px;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-container{
+    
+  }
+
 }
