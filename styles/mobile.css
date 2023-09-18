@@ -19,7 +19,8 @@
     width: 100%;
     height: auto;
   }
-  .uchtalik img{
+   
+  .container--logo-menu .uchtalik img{
     display: block;
   }
 
@@ -31,7 +32,7 @@
     background-image: url(../images/Bitmap-mobilne.png);
   }
 
-  .header-main {
+  .header-main--main-part {
     width: 100%;
     height: 500px;
     display: flex;
@@ -76,7 +77,7 @@
     transition: all 0.5s;
   }
 
-  .collection{
+  .collection img{
     width: 375px;
     height: 72px;
     flex-shrink: 0;
@@ -91,4 +92,6 @@
     flex-direction: column;
     align-items: center;
   }
+
+
 }
