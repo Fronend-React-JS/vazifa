@@ -566,6 +566,11 @@
     align-items: center;
   }
 
+  .header-main--main-part{
+    width: 73%;
+    height: auto;
+  }
+
   .header-main--main-part h1{
     width: 73%;
     color: var(--white-text-color);
@@ -589,7 +594,7 @@
   }
 
   .button{
-    width: 100%;
+    width: 57%;
     height: auto;
     flex-shrink: 0;
     border-radius: 6px;
