@@ -83,6 +83,7 @@
     width: 375px;
     height: 72px;
     flex-shrink: 0;
+    margin: 0 auto;
     background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
   }
 
