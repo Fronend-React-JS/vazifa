@@ -607,7 +607,11 @@
     font-style: normal;
     font-weight: 900;
     line-height: 25px; /* 138.889% */
-    margin: 0 auto;
+    margin-left: 20px;
+  }
+
+  .button:hover{
+    
   }
 
   .main{
