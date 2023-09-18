@@ -10,11 +10,22 @@
       align-items: center;
     }
 
+    .header img{
+        width: 163px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+
+    .header ul{
+     display: none;
+    }
+
     .header-main{
         background-image: url(../images/Bitmap-mobilne.png);
     }
 
     .container{
+        max-width: 107px;
         width: 100%;
         height: 500px;
     }
@@ -50,7 +61,7 @@
         height: 56px;
         flex-shrink: 0;
         border-radius: 6px;
-        background: #0E8784;
+        /* background: #0E8784; */
 
         color: #FEFCF7;
         text-align: center;
@@ -59,8 +70,9 @@
         font-style: normal;
         font-weight: 900;
         line-height: 25px; /* 138.889% */
+        transition: all 0.5s;
     }
-
+     
 
   }
   
