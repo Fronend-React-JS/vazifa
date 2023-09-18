@@ -1,78 +1,77 @@
 /* Mobilne css */
 
 @media screen and (max-width: 375px) {
-    .header {
-      width: 100%;
-      height: auto;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .header img{
-        width: 163px;
-        height: 18px;
-        flex-shrink: 0;
-    }
-
-    .header ul{
-     display: none;
-    }
-
-    .header-main{
-        background-image: url(../images/Bitmap-mobilne.png);
-    }
-
-    .container{
-        max-width: 107px;
-        width: 100%;
-        height: 500px;
-    }
-
-    .header-main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-main h1{
-        color: #FEFCF7;
-        text-align: center;
-        font-family: Fraunces 9pt;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 40px; /* 100% */
-    }
-
-    .header-main p{
-        color: #FEFCF7;
-        text-align: center;
-        font-family: Barlow;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; /* 166.667% */
-    }
-
-    .button{
-        width: 217px;
-        height: 56px;
-        flex-shrink: 0;
-        border-radius: 6px;
-        /* background: #0E8784; */
-
-        color: #FEFCF7;
-        text-align: center;
-        font-family: Fraunces 9pt;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 25px; /* 138.889% */
-        transition: all 0.5s;
-    }
-     
-
+  .header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  
+
+  .header img {
+    width: 163px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .header-container {
+    max-width: 107px;
+    width: 100%;
+    height: 500px;
+  }
+  .uchtalik {
+    display: block;
+  }
+
+  .header ul {
+    display: none;
+  }
+
+  .header-main {
+    background-image: url(../images/Bitmap-mobilne.png);
+  }
+
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-main h1 {
+    color: #fefcf7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 100% */
+  }
+
+  .header-main p {
+    color: #fefcf7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+  }
+
+  .button {
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    /* background: #0E8784; */
+
+    color: #fefcf7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+    transition: all 0.5s;
+  }
+}
