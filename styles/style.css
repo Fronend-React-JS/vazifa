@@ -527,9 +527,8 @@
 
 @media screen and (max-width: 375px) {
   .header {
-    width: 327px;
-    height: 18px;
-    flex-shrink: 0;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -540,7 +539,7 @@
   .container {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   .container--logo-menu img{
