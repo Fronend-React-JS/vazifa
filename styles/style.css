@@ -559,7 +559,7 @@
   }
 
   .header-main{
-    width: 87%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -567,7 +567,7 @@
   }
 
   .header-main--main-part{
-    width: 73%;
+    width: 100%;
     height: auto;
   }
 
@@ -607,11 +607,14 @@
     font-style: normal;
     font-weight: 900;
     line-height: 25px; /* 138.889% */
-    margin-left: 20px;
+    margin-left: 10px;
+    transition: all 0.5s;
   }
 
-  .button:hover{
-    
+  .header-main--main-part button:hover {
+    border: 2px solid #66d2cf;
+    background-color: transparent;
+    width: 20%;
   }
 
   .main{
