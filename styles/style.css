@@ -610,7 +610,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
-    line-height: 25px; /* 138.889% */
+    line-height:  138.889%;
     margin-left: 10px;
     transition: all 0.5s;
   }
