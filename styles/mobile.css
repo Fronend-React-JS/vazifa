@@ -30,11 +30,13 @@
 
   .header-main {
     background-image: url(../images/Bitmap-mobilne.png);
+    width: 327px;
+    height: 500px;
   }
 
   .header-main--main-part {
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
