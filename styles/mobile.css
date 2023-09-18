@@ -19,7 +19,7 @@
     width: 100%;
     height: auto;
   }
-  .uchtalik {
+  .uchtalik img{
     display: block;
   }
 
@@ -32,6 +32,8 @@
   }
 
   .header-main {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
