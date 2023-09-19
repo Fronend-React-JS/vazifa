@@ -526,3 +526,36 @@
   left: 14px;
   z-index: 1;
 }
+
+/* tablet css */
+
+@media screen and(max-width:768px) {
+
+  .header{
+      width: 768px;
+  }
+  .container--logo-menu img{
+      max-width: 236px;
+  }
+
+  .header-main h1{
+      color: #FEFCF7;
+      font-family: "Fraunces";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 48px;
+  }
+
+  .header-container{
+      width: 689px;
+      height: 500px;
+      flex-shrink: 0;
+  }
+
+  .collection{
+      display: flex;
+      flex-direction: column;
+      
+  }
+}
