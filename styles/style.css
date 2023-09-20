@@ -47,7 +47,7 @@
   list-style: none;
 }
 
-.menu{
+.menu {
   width: 16px;
   height: auto;
   display: none;
@@ -65,7 +65,7 @@
   text-transform: uppercase;
 }
 
-.container--logo-menu a:hover{
+.container--logo-menu a:hover {
   transition: all 0.4s;
   color: var(--black-text-color);
 }
@@ -522,9 +522,8 @@
 /* tablet css */
 
 @media screen and(max-width:768px) {
-
-  header-main--main-part h1{
-    color: #FEFCF7;
+  header-main--main-part h1 {
+    color: #fefcf7;
     font-family: Fraunces 9pt;
     font-size: 48px;
     font-style: normal;
@@ -532,15 +531,14 @@
     line-height: 48px; /* 100% */
   }
 
-  .container--logo-menu{
+  .container--logo-menu {
     width: 689px;
     height: 26px;
     flex-shrink: 0;
   }
 
-  .collection{
+  .collection {
     display: flex;
     flex-direction: column;
   }
-  
 }
