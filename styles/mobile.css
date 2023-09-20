@@ -1,3 +1,4 @@
+/* tablet css code */
 @media screen and (max-width: 768px) {
   .header-main--main-part h1 {
     color: #fefcf7;
@@ -130,12 +131,12 @@
     align-items: center;
     /* padding:  24px 50px; */
   }
-  
-  .free img{
-  margin-left: 50px;
+
+  .free img {
+    margin-left: 50px;
   }
 
-  .free{
+  .free {
     margin-bottom: 140px;
   }
 
@@ -148,7 +149,6 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 50px;
-    
   }
 
   .plus h1 {
@@ -175,33 +175,33 @@
 
   /* main-3 css */
 
-  .main-3--container{
+  .main-3--container {
     width: 689px;
     height: 622px;
     flex-shrink: 0;
     margin: 0 auto;
   }
 
-  .line{
+  .line {
     width: 467px;
     height: 2px;
   }
 
-  .doiralar{
+  .doiralar {
     width: 467px;
   }
 
-  .coffee-enjoy{
+  .coffee-enjoy {
     gap: 10px;
   }
 
-  .list{
+  .list {
     width: 223px;
     height: 371px;
   }
 
-  .list h1{
-    color: #FDD6BA;
+  .list h1 {
+    color: #fdd6ba;
     font-family: Fraunces 9pt;
     font-size: 72px;
     font-style: normal;
@@ -209,9 +209,9 @@
     line-height: 72px; /* 100% */
   }
 
-  .list h3{
+  .list h3 {
     width: 223px;
-    color: #333D4B;
+    color: #333d4b;
     font-family: Fraunces 9pt;
     font-size: 28px;
     font-style: normal;
@@ -219,9 +219,9 @@
     line-height: 32px; /* 114.286% */
   }
 
-  .list p{
+  .list p {
     width: 223px;
-    color: #333D4B;
+    color: #333d4b;
     font-family: Barlow;
     font-size: 15px;
     font-style: normal;
@@ -229,25 +229,147 @@
     line-height: 25px; /* 166.667% */
   }
 
-  .pointer-and-button{
+  .pointer-and-button {
     margin-left: 40px;
   }
 
   /* footer css */
 
-  .footer{
+  .footer {
     width: 768px;
     height: auto;
   }
 
-
-  .footer-container{
+  .footer-container {
     width: 688px;
     height: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-
 }
+
+@media screen and (max-width: 375px) {
+  .header {
+    width: 375px;
+    height: auto;
+  }
+
+  .header-container {
+    width: 327px;
+    height: 500px;
+  }
+
+  .container--logo-menu {
+    width: 327px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container--logo-menu img {
+    width: 163px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .container--logo-menu ul a {
+    display: none;
+  }
+
+
+  .header-main {
+    width: 327px;
+    height: 500px;
+    background-image: url(../images/mobile\ Bitmap.png);
+  }
+
+  .header-main--main-part{
+    margin: 0 auto;
+  }
+
+  .header-main--main-part h1{
+    width: 279px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 100% */
+    margin-left: 20px;
+  }
+
+  .header-main--main-part p{
+    width: 279px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-left: 25px;
+  }
+
+  .button{
+    margin-left: 50px;
+  }
+
+  /* main css */
+
+  .main{
+    width: 375px;
+    height: auto;
+  }
+
+  .main-container{
+    width: 375px;
+    height: auto;
+  }
+
+  .collection img{
+    position: relative;
+    margin: 0 auto;
+    width: 327px;
+    height: auto;
+    top: 15px;
+  }
+
+  .collection--img{
+    margin: 0 auto;
+  }
+
+  .package{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package h2{
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+  }
+
+  .package p{
+    width: 282px;
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    margin-bottom: 50px;
+  }
+
+  .package img{
+    width: 200px;
+    height: 151px;
+  }
